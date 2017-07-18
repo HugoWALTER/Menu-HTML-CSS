@@ -1,160 +1,153 @@
 body
 {
-	font-family: Arial;
-	margin:	0px;
-	padding: 0px;
-	background-color: #6B6868;
+    font-family: Arial;
+    margin:	0px;
+    padding: 0px;
+    background-color: #6B6868;
 }
 
 nav > ul::after
 {
-	content: "";
-	display: block;
-	clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
 nav > ul > li > a
 {
-	padding: 20px 30px;
+    padding: 20px 30px;
 }
 
 .submenu li
 {
-	border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
 }
 
 .submenu li a
 {
-	padding: 15px 30px;
-	font-size: 13px;
-	color: #222538;
-	width: 240px;
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 240px;
 }
 
 .subsubmenu li
 {
-	border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
 }
 
 .menu-home:hover
 {
-	border-top: 5px solid #F61313;
-	background-color: #F61313;
+    background-color: #F61313;
 }
 
 .menu-about:hover
 {
-	border-top: 5px solid #F61313;
-	background-color: #F61313;
+    background-color: #F61313;
 }
 
 .menu-portfolio:hover
 {
-	border-top: 5px solid #F61313;
-	background-color: #F61313;
+    background-color: #F61313;
 }
 
 .menu-blog:hover
 {
-	border-top: 5px solid #F61313;
-	background-color: #F61313;
+    background-color: #F61313;
 }
 
 .menu-categories:hover
 {
-	border-top: 5px solid #F61313;
-	background-color: #F61313;
+    background-color: #F61313;
 }
 
 .menu-contact:hover
 {
-	border-top: 5px solid #F61313;
-	background-color: #F61313;
+    background-color: #F61313;
 }
 
 .menu-sitemap:hover
 {
-	border-top: 5px solid #F61313;
-	background-color: #F61313;
+    background-color: #F61313;
 }
 
 nav > ul > li:hover a
 {
-	padding: 15px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
 }
 
 .menu-portfolio .subsubmenu li:hover
 {
-	background-color: #F61313;
+    background-color: #F61313;
 }
 
 ul 
 {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	background-color: #424558;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #424558;
 }
 
 ul li 
 {
-	display: block;
-	position: relative;
-	float: left;
-	background-color: #424558;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: #424558;
 }
 
 li ul
 {
-	display: none; 
+    display: none; 
 }
 
 ul li a 
 {
-	display: block;
-	padding: 1em;
-	text-decoration: none;
-	color: white;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
 }
 
 ul li a:hover 
 { 
-	background-color: #F61313; 
+    background-color: #F61313; 
 }
 
 li:hover > ul 
 {
-	display: block;
-	position: absolute;
+    display: block;
+    position: absolute;
 }
 
 li:hover li 
 { 
-	float: none; 
+    float: none; 
 }
 
 .submenu > *
 {
-	background-color: white;
+    background-color: white;
 }
 
 .subsubmenu > *
 {
-	background-color: white;
+    background-color: white;
 }
 
 li:hover li a:hover 
 {
-	background-color: #F61313; 
+    background-color: #F61313; 
 }
 
 li:hover, .subsubmenu:hover 
 {
-	background-color: #F61313; 
+    background-color: #F61313; 
 }
 
 ul ul ul 
 {
-  left: 100%;
-  top: 0;
+    left: 100%;
+    top: 0;
 }
